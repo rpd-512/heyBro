@@ -1,0 +1,122 @@
+body{background-color:black;}
+button{outline:none;}
+
+.homeHead{background:linear-gradient(rgba(200,20,200),rgb(100,10,200));height:400px;color:white;text-align:center;font-family:'Almendra SC';padding:5px;border-radius:50px;transition:0.3s ease;}
+.homeHead img{width:200px;}
+.homeHead h1{font-size:50px;}
+.homeHead .setngs{width:75px;height:75px;float:left;margin-top:10px;margin-left:10px;border-radius:100px;border:white 5px solid;background:transparent;text-align:center;transition:0.3s ease;}
+.homeHead .setngs img{width:40px;}
+.homeHead .setngs:hover{transform: rotate(45deg);}
+.homeHead .setngs:focus{transform: rotate(180deg);}
+
+.homeHead .topPic{width:200px;vertical-align:center;transition:0.5s ease;}
+.homeHead .topPic:hover{transform: rotate(360deg);}
+
+.homeFoot{font-family:'Almendra SC';font-size:25px;text-align:center;color:white;}
+
+.sign{text-align:center;margin-top:1%;}
+.sign a{text-align:center;font-family:'Almendra SC';font-size:25px;background-color:rgba(0,0,0,0);color:white;font-weight:bold;border:2px white solid;border-radius:5px;padding:5px 20px;text-decoration:none;transition:0.3s ease;}
+.sign a:hover{color:indigo;background-color:white;outline:none;}
+
+.det input{width:50%; font-size:25px;font-family:'aladin';border: 2px white solid;border-radius:5px;outline:none;transition:0.3s ease;padding:5px;}
+.det input:focus{border-color:purple;}
+.det #pswd{width:47.25%;}
+.det input[type="submit"]{text-align:center;font-family:'Almendra SC';font-size:25px;background-color:rgba(0,0,0,0);color:white;font-weight:bold;border:2px white solid;border-radius:5px;padding:5px;text-decoration:none;width:25%;}
+.det input[type="submit"]:hover{color:indigo;background-color:white;outline:none;}
+#eyeP{border:0px solid rgba(0,0,0,0);background-color:rgba(0,0,0,0);outline:none;padding:5px;}
+
+.aftLgin .allinfo{background:linear-gradient(rgba(10,100,200),rgb(20,200,200));height:175px;color:white;text-align:center;padding:1px;border-radius:5px;transition:0.3s ease;margin-top:-15px;font-family:salsa;}
+.aftLgin .info{font-size:25px;font-weight:bold;text-align:left;padding:5px 50px;}
+.aftLgin .info .det{padding:5px;}
+.aftLgin .topText{font-size:50px;font-weight:bold;}
+.topPicHome{width:200px;vertical-align:center;transition:0.5s ease;margin-top:-40px;}
+.topPicHome:hover{transform: rotate(360deg);}
+.homePage{height:225px;}
+
+.lgout{text-align:center;margin-top:1%;text-align:right;margin-right:50px;}
+.lgout button{text-align:center;font-family:'Almendra SC';font-size:25px;background-color:rgba(0,0,0,0);color:white;font-weight:bold;border:2px white solid;border-radius:5px;padding:5px;text-decoration:none;transition:0.3s ease;width:125px;}
+.lgout button:hover{color:indigo;background-color:white;outline:none;}
+
+.friends{margin-top:-10px;background:linear-gradient(rgba(120,10,20),rgb(120,10,120));min-height:calc(100% - (200px + 250px));color:white;text-align:center;font-family:'Almendra SC';padding:5px;border-radius:5px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;text-align:center;}
+.friends button{width:80%;text-align:left;border:white 5px solid;font-size:20px;font-family:salsa;background:transparent;color:white;padding:5px;border-radius:5px;transition:0.3s ease;display:inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;}
+.friends button:hover{color:rgb(120,10,20);background-color:white;transform:scale(1.1);}
+.friends button:focus{transform:scale(1.2);color:rgb(120,10,20);background-color:white;}
+
+.addfrnd{margin-top:-10px;background:linear-gradient(rgb(120,10,20),rgb(120,10,120));min-height:calc(100% - (200px + 250px));color:white;text-align:center;font-family:'Almendra SC';padding:5px;border-radius:5px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;}
+.addfrnd button{width:230px;font-family:salsa;color:white;background-color:rgba(0,0,0,0);border:2px white solid;font-size:25px;border-radius:5px;padding:5px 50px;margin-top:25px;transition:0.3s ease;outline:none;}
+.addfrnd button:hover{color:rgb(120,10,20);background-color:white;}
+.addfrnd button:focus{transform:scale(1.5);}
+
+.searchBut{text-align:center;outline:none;height:50px;width:50px;padding:5px;border-radius:10px;margin-top:1px;float:right;transition:0.3s ease;border:rgba(255,255,255,1) 5px solid;background-color:transparent;}
+.searchBut:hover{border-radius:100px;}
+.searchBut:focus{transform:rotate(360deg) scale(0.9);border-radius:100px;}
+
+.searchRes{min-height:calc(100% - 330px);background:linear-gradient(rgba(10,100,200),rgb(20,200,200));margin-top:-10px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;text-align:left;}
+.searchRes .resultsearch{width:80%;margin-left:10%;padding:20px;}
+.searchRes .resultsearch button{font-size:25px;font-family:salsa;color:white;border:5px white solid;padding:5px;border-radius:5px;width:100%;background:transparent;text-align:left;outline:none;transition:0.3s ease;display:inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;}
+.searchRes .resultsearch button:hover{color:rgb(10,100,200);background-color:white;transform:scale(1.1);}
+.searchRes .resultsearch button:focus{transform:scale(1.2);color:rgb(10,100,200);background-color:white;}
+.searchRes .resultsearch .noresults{color:white;font-size:50px;font-family:salsa;margin-left:10%;}
+
+.home button{font-size:25px;font-family:'Almendra SC';background:transparent;color:white;border:3px white solid;border-radius:5px;font-weight:bold;padding:5px 50px;transition:0.3s ease;}
+.home button:hover{color:indigo;background-color:white;}
+.home button:focus{transform:scale(1.2);}
+
+.settings{background:linear-gradient(rgb(120,10,20),rgb(120,10,120));min-height:calc(100% - 300px);margin-top:-10px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;color:white;text-align:center;}
+.settings span{font-family:aladin;font-size:30px;transition:0.3s ease;margin-left:10%;}
+.settings span input{font-family:aladin;width:50%;font-size:25px;border:white solid 5px;padding:5px;outline:none;border-radius:5px;transition:0.3s ease;color:rgb(120,10,20);}
+.settings span input:focus{background:transparent;color:white;}
+
+.settings button{font-family:aladin;font-size:30px;transition:0.3s ease;color:white;background-color:transparent;border:5px white solid;padding:5px 50px;border-radius:5px;width:300px;}
+.settings button:hover{color:rgb(120,10,20);background:white;}
+.settings button:focus{transform:scale(1.25);}
+
+.chngpswd{min-height:calc(100% - 300px);background:linear-gradient(rgba(10,100,200),rgb(20,200,200));margin-top:-10px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;text-align:center;}
+.chngpswd input{width:80%;margin-top:2%;font-size:25px;border-radius:5px;border:5px white solid;background:rgba(255,255,255,0.1);outline:none;color:white;padding:5px;font-family:salsa;transition:0.3s ease;}
+.chngpswd input::placeholder{color:white;opacity:0.5;}
+.chngpswd input:focus{border-color:rgba(150,10,200,0.5);}
+.chngpswd #pswd{width:calc(80% - 34px);}
+.chngpswd button{font-family:salsa;font-size:25px;margin-top:25px;border:5px solid white;color:white;background:transparent;padding:5px 50px;border-radius:5px;transition:0.3s ease;}
+.chngpswd button:not(#eyeP):hover{color:rgb(20,100,200);background:white;}
+.chngpswd button:not(#eyeP):focus{transform: scale(1.5);color:rgb(20,100,200);background:white;}
+
+.deleteAcc{min-height:calc(100% - 300px);background:linear-gradient(rgba(10,100,200),rgb(20,200,200));margin-top:-10px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;text-align:center;}
+.deleteAcc input{width:80%;margin-top:2%;font-size:25px;border-radius:5px;border:5px white solid;background:rgba(255,255,255,0.1);outline:none;color:white;padding:5px;font-family:salsa;transition:0.3s ease;}
+.deleteAcc input::placeholder{color:white;opacity:0.5;}
+.deleteAcc input:focus{border-color:rgba(150,10,200,0.5);}
+.deleteAcc #pswd{width:calc(80% - 34px);}
+.deleteAcc button{font-family:salsa;font-size:25px;margin-top:25px;border:5px solid white;color:white;background:transparent;padding:5px 50px;border-radius:5px;transition:0.3s ease;}
+.deleteAcc button:not(#eyeP):hover{color:rgb(20,100,200);background:white;}
+.deleteAcc button:not(#eyeP):focus{transform: scale(1.5);color:rgb(20,100,200);background:white;}
+.deleteAcc p{color:white;font-size:25px;font-family:salsa;}
+
+.header{height:120px;background:linear-gradient(rgba(150,20,200),rgb(50,20,200));border-radius:50px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;position:fixed;width:calc(100% - 16px);margin-top:-120px;text-align:center;}
+.header span{color:white;font-family:salsa;font-size:23px;margin-top:0;display:inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 80%;}
+.header button{font-family:salsa; color:white; border:5px white solid; border-radius:5px; padding:5px;background:transparent;transition:0.3s ease;width:50px;}
+
+.chatWin{min-height:calc(100% - 125px);background:linear-gradient(rgba(10,100,200),rgb(20,200,200));border-radius:5px;margin-top:130px;transition:0.3s ease;}
+.chatWin p{font-family:aladin;color:white;word-wrap: break-word;transition:0.3s ease;}
+.chatWin .recv{max-width:40%;font-size:20px;border:5px rgb(250,250,20) solid;border-radius:15px 15px 15px 0px;padding:10px;margin-left:10px;background:rgba(255,255,25,0.2);}
+.chatWin .send{max-width:40%;font-size:20px;border:5px lightgreen solid;border-radius:15px 15px 0px 15px;padding:10px;margin-left:calc(60% - 40px);text-align:right;background:rgba(10,255,10,0.25);}
+
+.sendMsg input{bottom:10px;width:calc(100% - (10px + 50px));font-size:25px;position:fixed;height:50px;border-radius:5px;border:5px white solid;outline:none;background:rgb(0,100,255);color:white;font-family:aladin;padding:5px;}
+.sendMsg button{bottom:10px;;width:50px;font-size:25px;position:fixed;height:50px;border-radius:5px;border:5px white solid;outline:none;background:rgb(0,255,0);color:white;font-family:aladin;margin-left:calc(100% - 50px - 16px);}
+
+@media screen and (max-width: 800px){
+.searchRes .resultsearch{margin-left:5%;}
+.searchRes .resultsearch button{width:100%;font-size:20px;}
+.homeHead{height:425px;}
+.det input{width:75%;}
+.det #pswd{width:67%;}
+.det input[type="submit"]{width:38%;}
+.aftLgin .allinfo{height:150px;}
+.aftLgin .info{font-size:20px;}
+.homePage{height:275px;}
+.topPicHome{width:200px;vertical-align:center;transition:0.5s ease;margin-top:-240px;}
+.lgout {text-align:center;margin-right:0px;margin-top:210px;}
+.lgout a{font-size:20px;width:50px;}
+.friends .list span{max-width: 150px;}
+.chngpswd input{margin-top:10%;}
+.deleteAcc input{margin-top:10%;}
+.addfrnd button{margin-top:75px;}
+}
