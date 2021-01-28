@@ -8,6 +8,8 @@ if(!isset($_COOKIE['userID']) or !hashCheck($_COOKIE['userID'],"c",$pdo)){setcoo
 $meData = hashDetail($_COOKIE['userID'],"c",$pdo);
 
 if(! isset($_POST['recv'])){
+
+if(str_replace(" ","",$_POST['msg']) != ""){
 echo $_POST['msg'];
 $qry = "insert into messages (sendId,recvId,mesg) values(:sid,:rid,:msg)";
 $raw_data = $pdo->prepare($qry);
@@ -16,6 +18,7 @@ $raw_data->execute(array(
 ':rid' => $_POST['to'],
 ':msg' => $_POST['msg']
 ));}
+}
 
 if(isset($_POST['recv']))
 {
