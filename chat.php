@@ -63,6 +63,12 @@ last = <?= $last ?>;
 <br><br></div>
 </body>
 <script src="js/sketch.js"></script>
+<script>
+function sendOnEnter(e){
+if(e.key == "Enter"){
+document.getElementById("sndMsg").click()}
+}
+</script>
 <script>$(document).ready(function(){
 window.scrollTo(0,document.body.scrollHeight);})
 window.setInterval(
