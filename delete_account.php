@@ -66,7 +66,7 @@ header("Location: delete_account.php");return;
 </div>
 <script src="js/sketch.js"></script>
 <script>
-var i = 0;var txt1 = "I is really sad to see you go :(<br>We hope you come back.<br><br>NOTE: this account could never be recovered later";var speed = 20;function typeWriter() {if (i < txt1.length) {try{if(txt1.charAt(i)+txt1.charAt(i+1)+txt1.charAt(i+2)+txt1.charAt(i+3) == "<br>"){document.getElementById("summary").innerHTML += "<br>";i+=4;}else{document.getElementById("summary").innerHTML += txt1.charAt(i);i++;}}catch{document.getElementById("summary").innerHTML += txt1.charAt(i);i++;}setTimeout(typeWriter, speed);}}setTimeout(typeWriter(), 1000);
+var i = 0;var txt1 = "It is really sad to see you go :(<br>We hope you come back.<br><br>NOTE: this account could never be recovered later";var speed = 20;function typeWriter() {if (i < txt1.length) {try{if(txt1.charAt(i)+txt1.charAt(i+1)+txt1.charAt(i+2)+txt1.charAt(i+3) == "<br>"){document.getElementById("summary").innerHTML += "<br>";i+=4;}else{document.getElementById("summary").innerHTML += txt1.charAt(i);i++;}}catch{document.getElementById("summary").innerHTML += txt1.charAt(i);i++;}setTimeout(typeWriter, speed);}}setTimeout(typeWriter(), 1000);
 </script>
 <?= $err;?>
 </body>
